@@ -1,5 +1,5 @@
 <html>
-  <!--alanduda.com did the code and is sorry you are looking at it-->
+  <!--alanduda.com did the code and is sorry you are looking at it. joel fixed a lot of it though.-->
 <head>
   <meta charset="UTF-8">
 
@@ -15,19 +15,38 @@
 	    background-size: cover;
 	    resize: both;
 	    overflow: scroll;
+		background-attachment: fixed;
 	  background-position:center;}
+
+	  img {
+		  max-width: 100%;
+	  }
     
-    .header {position:fixed;margin-top:20px;margin-left:20px;z-index:394;width:350px; height:150px;}
+    .header {  position: static;margin-top:20px;margin-left:20px;z-index:9999;width:350px; height:150px;}
 
 	  .header a { font-family: acumin-pro-wide, sans-serif; font-weight: 900; font-style: normal; color:#eeeeee; font-size:20px; text-decoration:none; line-height:.9em;}
 	  .header a:hover {text-decoration:#eeeeee wavy underline;}
 	  .header img {margin-top:-30px;}
 	  .header img:hover {transform:rotate(360deg); transform-style:flat; transition:9s;}
-
+	.page {min-height:75vh;}
 	  
-	  
+.spacer--40vh{
+    margin-top: -65px;
+    width: 100%;
+    height: 50vh;
+    background: url(posters.png);
+    background-size: 140%;
+	background-position: top;;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    z-index: 0;
+    position: relative;
+    z-index: 9999;
+    margin-bottom: -35px;
+}
 	  	  
-	  .trailer { width: 100%!important; z-index:-1; padding-top:200px; position:relative; display:block; margin-bottom:100px;}
+	  .trailer { width: 100%!important; z-index:9998; padding-top:200px; position:relative; display:block; margin-bottom:100px;}
 	  
 	  .about {background-color:#111111; width:70%; padding:8%; position:relative; display:block; margin: 0 auto;}
 	  
@@ -37,6 +56,14 @@
 	  p a {font-style:italic; color:#ff7b00;}
 	  p a:hover {font-style:normal; color:#eeeeee; text-decoration:#eeeeee wavy underline;}
     
+	  #submit {
+		  background-color:#111111;
+		  position:relative;
+		  z-index: 999;
+		  margin:40px auto;
+	  }
+	  
+	  #headline{font-family: acumin-pro-wide, sans-serif; font-weight: 900; font-style: normal; color:#eeeeee;font-size:50px; margin:0 auto; text-align:center;}
   </style>
 
 	
@@ -51,16 +78,53 @@
 	
   <div class="header">
     
-	  <img src="qcff-sticker-logo.png" width="150px" style="float:left;"> <a href="#about">ABOUT</a><br><br><a href="#submit">SUBMIT</a><br><br><a href="#alums">ALUMS</a><br><br><a href="https://archive.quietcornerfilmfestival.org/tagged/2019">QCFF'19⇗⇗</a>
+	  <img src="qcff-sticker-logo.png" width="200px" style="float:left;"> <a href="#about">ABOUT</a><br><br><a href="#submit">SUBMIT</a><br><br><a href="#alums">ALUMS</a><br><br><a href="https://archive.quietcornerfilmfestival.org/tagged/2019">ARCHIVE &nbsp; ⇗⇗</a>
   
   </div>
-	
-	<div class="trailer"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/607850523?autoplay=1&h=841b36cce1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="2022 Quiet Corner Film Fest is Now Accepting Submissions"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-	</div>
+
+	<div class="headline">Wednesday, June 1st, 2022<br>Doors/Red Carpet @ 5:30PM • screenings @ 6:15PM<br>free to the public</div>
+
+	<div class="trailer">
+		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/607850523?h=841b36cce1&autoplay=1&color=ff7b00&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+	<p><br>Music by Fitch High School Alum Twayne the Kidd<br><br>
+		<em>Films in order of appearance:</em><br>
+	1 - "Bestie" by Rodrigo Mariano, Saint Bernard School, 2019<br>
+	2 - "Ire" by Hailey-Mae Peel, Stonington High School, 2019<br>
+	3 - "Alias" by by Ezra Lyon & Ben Desaulnier, Killingly High School, 2016<br>
+	4 - "Backcountry" by Quinian Gervasio, Killingly High School, 2019<br>
+	5 - "Prom Rocks" by Rodrigo Mariano, St. Bernard High, 2018<br>
+	6 - "The Journey to Lake Asthen" by Rex Thrustan, ACT School, 2019<br>
+	7 - "The Open" by Colin Farrar & Devin St. Jean, RHAM High School, 2016<br>
+	8 - "PRISONER'S CINEMA" by Melinda Li, East Lyme High, 2014<br>
+	9 - "Golf Cart Drift" by Kyle Ahlberg, Bacon Academy, 2014<br>
+	10 - "The Journey to Lake Asthen" by Rex Thrustan, ACT School, 2019<br>
+	11 - "Desertion of the Mind" by Devin St. Jean, RHAM High School, 2016<br>
+	12 - "Backcountry" by Quinian Gervasio, Killingly High School, 2019<br>
+	13 - "Locke" by Jack Adam Miceli, East Lyme High, 2018<br>
+	14 - "Bestie" by Rodrigo Mariano, Saint Bernard School, 2019<br>
+	15 - "Prom Rocks" by Rodrigo Mariano, St. Bernard High, 2018<br>
+	16 - "VirusX" by Alyssa Hansen, Killingly High, 2018<br>
+	17 - "The Alternate Energy Committee" by Thayne Hutchins, Woodstock Academy, 2016<br>
+	18 - "Prom Rocks" by Rodrigo Mariano, St. Bernard High, 2018<br>
+	19 - "Blue Note" by Tyler Lemire, ACT Magnet School, 2018<br>
+	20 - "Golf Cart Drift" by Kyle Ahlberg, Bacon Academy, 2014<br>
+	21 - "Blue Note" by Tyler Lemire, ACT Magnet School, 2018<br>
+	22 - "At Heart II" by Lionel R. Jeffries, Tolland High School, 2017<br>
+	23 - "The Trip to Wyoming" by Aurora Hooper, Lyman Memorial High School, 2014<br>
+	24 - "PRISONER'S CINEMA" by Melinda Li, East Lyme High, 2014<br>
+	25 - "Bestie" by Rodrigo Mariano, Saint Bernard School, 2019<br>
+	26 - "Locke" by Jack Adam Miceli, East Lyme High, 2018<br>
+	27 - "The Alternate Energy Committee" by Thayne Hutchins, Woodstock Academy, 2016<br>
+	28 - "VirusX" by Alyssa Hansen, Killingly High, 2018<br>
+	29 - "At Heart II" by Lionel R. Jeffries, Tolland High School, 2017<br>
+	30 - "Match" by Patrick John Blair, ACT School, 2014<br>
+		31 - "The Trip to Wyoming" by Aurora Hooper, Lyman Memorial High School, 2014<br></p>
+
+</div>
 		
 
 	
-  <div class="about" id="about" style="margin-bottom:400px;">
+  <div class="about page" id="about">
   		<img src="qcff-sticker-CT-highschoolers.png" style="float:right; width:330px;">
 	  <img src="qcff-sticker-6th.png" style="float:right; width:120px;">
 	  <h1>an opportunity for connecticut high school filmmakers to shine</h1>
@@ -78,18 +142,18 @@
 	  <p>Winners in categories like Best Cinematography win trophies and equipment.</p><br>
 
   </div>
-<br><br><br><br><br><br><br><br><br><br><br><br>
 
-<div style="margin:0 auto; text-align:center; position: relative;"><img src="posters.png" style="position: absolute; top: -9999px; bottom: -9999px; left: -9999px; right: -9999px; margin: auto; "></div>
+<!-- <div style="margin:0 auto; text-align:center; position: relative;"><img src="posters.png" style="position: absolute; top: -9999px; bottom: -9999px; left: -9999px; right: -9999px; margin: auto; "></div> -->
 
+<div class="spacer--40vh"></div>
   
-<div id="submit">
+<div id="submit" class="about">
 	<h1>Submit</h1>
 	<br><br>
 	<p>Use <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-oFmAqUzpzPmCdT-ebOYykXBDotu7bSKVVffo459tV6ZYmg/viewform">this Google form</a> to submit your short.</p>
 </div>
 
-<div class="about" id="alums">
+<div class="about page" id="alums">
 
 	<h1>Where are they now?</h1>
 	<br><br>
@@ -97,7 +161,10 @@
 		<p>Nick Bartos (BAND AID – QCFF'14) graduated from UCONN's Digital Media & Design program in 2019. He interned at the digital agency Primacy and worked as a Video Production Assistant at UCONN. Nick has also been a freelance videographer and photographer for the New York Red Bulls for 3 seasons now, and recently started his own social media video company in Manchester, CT called <a href="https://thesocialmotion.com/videoandanimation">Social Motion</a>.</p>
 		<br><br>
 	<h2>Bonsall, Cade</h2>
-		<p>Cade Bonsall (INTRUSION – QCFF'17) is currently pursuing a degree in filmmaking at Keene State University.</p>
+		<p>Cade Bonsall (INTRUSION – QCFF'17) graduated from Killingly High School in 2017. Afterward, he went on to study film production at Keene State College in New Hampshire. During his senior year, he secured a remote internship as a sound editor for EV Productions; a production company in LA. After graduating college in May 2021, He continued to work for the company’s co-founder. He is now currently employed as a remote assistant editor for both sound and video on a podcast series known as “The Coriolis Effect”, which currently airs on YouTube. The hosts of the show have asked him to join in their future projects including web-based, TV, and film work.</p>
+		<br><br>
+	<h2>Briere, Jordan</h2>
+		<p>Jordan Briere (THE LAST PAGE - QCFF'14) graduated from Fitchburg State University with a BS in Comms & Media Studies. Jordan interned at Boston Digital Productions, worked as a Video Editor at Isabella Garrucho Fine Art and a Photographer's Assistant at Madore Photography.</p>
 		<br><br>
 	<h2>Hooper, Aurora</h2>
 		<p>Aurora Hooper (THE TRIP TO WYOMING – QCFF'14) interned at Cannes Film Festival. After graduating from Full Sail and Husson University, Aurora worked as a content creator at Mount Snow and shot and edited wedding videos with Epic Filmmakers in Amherst MA. She's currently the full-time videographer at L.L. Bean and is a <a href="https://www.aurorahooper.com/">freelance photographer</a> based in Southern Maine.</p>
@@ -112,9 +179,12 @@
 		<p>Melinda Li (PRISONER'S CINEMA – QCFF'14) recently graduated from Harvard and has already worked at some big names in the film/TV world including Village Roadshow, Plan B Entertainment, Anonymous Content, Women in Film, ReFrame and Warner Bros. She also was the Co-Director of the Harvard College Film Fest. She currently works as a Creative Executive/TV Development & Production for Viola Davis' production company JuVee Productions.</p>
 		<br><br>
 	<h2>Lyon, Ezra</h2>
-		<p>Ezra Lyon (ALIAS – QCFF'16) designs and fabricates furniture and decor (and photographs them well) through his business <a href="https://tamarackfabrication.com/">Tamarack Fabrication</a>.</p>
+		<p>Ezra Lyon (ALIAS – QCFF'16) designs and fabricates furniture and decor (and takes photographs of them) through his business <a href="https://tamarackfabrication.com/">Tamarack Fabrication</a>.</p>
 		<br><br>
-	<h2>St. Jean, Dev</h2>
+	<h2>Mainville, Tyler</h2>
+		<p>Tyler Mainville (BIKE: A LOVE STORY – QCFF'14) graduated with a Film Production degree from the University of Creative Arts in the UK. Tyler helped run the school's gardening collective (UCA Growers Society) and organized screenings of eco-films.</p>
+		<br><br>
+	<h2>Stafford, Dev</h2>
 		<p>Dev Stafford (0013: LIVE ANOTHER DAY – QCFF'14, DESERTION OF THE MIND – QCFF'16, THE OPEN – QCFF'16) recently graduated from Pace University, where he was the Lead Editor at PaceDocs. Dev's <a href="https://www.devstafford.com/awards">worked on many short films and documentaries</a>, is currently the videographer at BestLogic Staffing, and is a freelance videographer/content creator.</p>
 	<br><br>
 	
